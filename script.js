@@ -193,7 +193,7 @@ function displayData(){
     var cols = '';
     for(var i = 0; i < data.length; i++){
         cols += `
-        <div class="col-md-4 mb-4">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
             <div class="card">
                 <img src="${data[i].image_url}" class="card-img">
                 <div class="card-body">
