@@ -8,28 +8,36 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="nav-bar navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <div class="navbar-brand text-light">Forkify</div>
-            <ul class="navbar-nav d-flex flex-row gap-4">
-                <li class="nav-item">
-                    <a class="nav-link text-light" data-type="pizza" href="#">Pizza</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" data-type="carrot" href="#">Carrots</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" data-type="pasta" href="#">Pasta</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" data-type="pasta" href="#">grape</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" data-type="pasta" href="#">cherry</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Forkify</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">pizza</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Carrots</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pasta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">grape</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">cherry</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">sushi</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     <div class="container mt-5">
         <div class="row g-4" id="colsData"></div>
     </div>

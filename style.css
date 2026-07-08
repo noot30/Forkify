@@ -8,6 +8,12 @@ body {
     background: linear-gradient(rgb(38, 10, 113),rgb(73, 26, 193));
     background-attachment: fixed;
 }
+nav{
+    background-color: #39353d;
+}
+nav ul a , .navbar-brand{
+    color: #ffffff !important;
+}
 
 .card{
     
